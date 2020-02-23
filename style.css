@@ -1,1 +1,173 @@
+*{
+  font-family: PokemonSolid;
+  letter-spacing: 3px;
+  //background-color:#ef5350;
+}
+.title{
+  color:#fec91b!important;
+  text-shadow: 2px 2px #3760a8;
+  font-size: 120%;
+  padding-top: 0;
+}
+.centered{
+  text-align: center;
+}
+.vcent{
+  vertical-align:middle;
+}
+.minhig{
+  min-height: 100px;
+}
+.sml{
+  font-size: 80%;
+}
+.frotn{
+  z-index: 10;
+}
+.botmar{
+padding-bottom: 10px;
+}
+.titlelarge{
+    color:#3760a8!important;
+    text-shadow: 4px 4px #fec91b;
+    font-size: 320%;
+    letter-spacing: 7px;
+    z-index: -10;
+}
+.hidden{
+  display:none;
+}
+.upadd{
+  padding-top: 30px;
+}
+.redd{
+  background-color:#ef5350!important;
+}
+.lightred{
+  background-color:#ffcaca!important;
+}
+.buttonrow{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.buttonrow button, .submitbutton{
+  margin:10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  z-index: 10;
+  }
+body{
+  background-color:#ffffff;
+}
+h1{
+  color:#3760a8;
+  //background-color:#fec91b;
+}
+button, .submitbutton{
+  color:#3760a8;
+  background-color: #ef5350;
+  border-radius: 10px!important;
+  border: 0px!important;
+  box-shadow: 2px 2px 0px;
+}
+button:hover, .submitbutton:hover {
+  color:#3760a8;
+  background-color: #fec91b;
+  border-radius: 10px;
+  border: 0px;
+  box-shadow: 4px 4px 0px;
+}
+button:focus, .submitbutton:focus { outline: none; }
+.full{
+  width:100%;
+  text-align: center;
+  margin:auto;
+}
 
+@font-face{
+  font-family: 'PokemonSolid';
+  src: url('fonts/Pokemon Solid.ttf');
+}
+
+.pokeimage{
+  width:250px;
+  height:250px;
+  image-rendering: pixelated;
+}
+.darken{
+  filter: brightness(0%);
+  animation: fadeIn 1s linear;
+}
+.fadeshow{
+  animation: fadeIn 1s linear;
+}
+
+#quizDiv{
+  //margin:auto;
+margin:10px;
+  text-align: center;
+  background-color: #ffeeee !important;
+  border-radius: 10px;
+
+}
+#fr{
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.start{
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.hideNow{
+  display: none;
+}
+@keyframes light {
+  from{filter: brightness(100%)}
+  0%{filter: brightness(0%)}
+  100%{filter: brightness(100%)}
+}
+.lighten{
+  animation: light 1s linear;
+}
+@keyframes fadeIn {
+    from{opacity:100%;}
+    0%{opacity:0%}
+    100%{opacity:100%s}
+}
+.showNow{
+animation: fadeIn 1s linear;
+}
+
+
+.inputtext{
+  height: 120%;
+}
+.bad{
+  color: red;
+}
+.good{
+  color: green;
+}
+.diss{
+  filter:opacity(0%);
+}
+footer {
+  margin-top: 0px!important;
+  padding-top: 20px!important;
+
+  background-color: #ef5350;
+    box-shadow: 0 50vh 0 50vh #ef5350;
+}
+footer div a{
+  color:white;
+  padding-left: 30px;
+}
+footer div a:hover{
+  color:white;
+}
+.container{
+  margin-bottom: 0px!important;
+}

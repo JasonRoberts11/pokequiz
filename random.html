@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Pokéquiz Random</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" href="pokeball.png" />
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light redd frotn">
+
+  <a class="navbar-brand title" href="index.html">
+    <img src="pokeball.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    Pokéquiz</a>
+  <button class="navbar-toggler frotn" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Random</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container lightred">
+  <div class="row align-items-center minhig">
+<div class="col">
+    <h1 class="titlelarge centered" tabIndex="-1" disabled>Random Pokémon</h1>
+</div>
+</div>
+  <div class="buttonrow" id="buttonrow">
+    <button id="startRand">Generate Random Pokémon</button>
+  </div>
+  <!--Where the quiz is displayed-->
+  <div id="quizDiv" class="hidden">
+    <div class="start">
+      <h3 id="question"></h3>
+      <h3 id="answer" class="diss">.</h3>
+      <img id="qimage" class="pokeimage darken"></img>
+      <p id="descriptione" class="full"></p>
+    </div>
+  </div>
+<p class="centered botmar">Made with love and tears.<br> Uses <a href="https://pokeapi.co/">Pokéapi</a> and <a href="https://countapi.xyz/">CountAPI</a></p>
+
+<footer>
+  <div>
+    <a href="https://github.com/JasonRoberts11/pokequiz">My Github</a>
+    <div>
+
+</footer>
+</div>
+
+
+
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script src="randomscript.js"></script>
+
+</html>
